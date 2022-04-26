@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
     <meta charset="utf-8"/>
     <title>Login</title>
@@ -32,18 +32,18 @@ if (isset($_POST['username'])) {
     }
     else {
         echo "<div class='form'>
-                  <h3>Incorrect Username/password.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+                  <h3>Niepoprawna Nazwa konta bądź hasło.</h3><br/>
+                  <p class='link'>Kliknij by <a href='login.php'>zalogować</a> sie ponownie.</p>
                   </div>";
     }
 } else {
     ?>
     <form class="form" method="post" name="login">
         <h1 class="login-title">Login</h1>
-        <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
-        <input type="password" class="login-input" name="password" placeholder="Password"/>
+        <input type="text" class="login-input" name="username" placeholder="Nazwa konta" autofocus="true"/>
+        <input type="password" class="login-input" name="password" placeholder="Hasło"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="registration.php">New Registration</a></p>
+        <p class="link"><a href="registration.php">Rejestracja</a></p>
     </form>
     <?php
 }

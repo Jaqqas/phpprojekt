@@ -54,30 +54,30 @@ include("auth_session.php");
 
   <nav class="main-navigation navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="dashboard.php"><img src="assets/images/white-logo.png" alt="" width="100" height="100"></a>
+      <a class="navbar-brand" href="admin.php"><img src="assets/images/white-logo.png" alt="" width="100" height="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="dashboard.php">Strona domowa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="settings2.html">Ustawienia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cameras.html">Kamery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="logs.html">Logi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="records.html">Nagrania</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="records.html">Wyloguj</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="dashboard.php">Strona domowa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="settings2.php">Ustawienia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cameras.php">Kamery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="logs.php">Logi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="records.php">Nagrania</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="logout.php">Wyloguj</a>
+            </li>
         </ul>
       </div>
     </div>

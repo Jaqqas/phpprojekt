@@ -78,15 +78,7 @@ include("auth_session.php");
 </header>
 
 <div id="main">
-    <div class="camera">
 
-    </div>
-    <div class="camera">
-
-    </div>
-    <div class="camera">
-
-    </div>
     <div class="camera">
 
     </div>

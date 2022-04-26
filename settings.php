@@ -64,8 +64,11 @@ include("auth_session.php");
             <a class="nav-link active" href="dashboard.php">Strona domowa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="settings.html">Ustawienia</a>
+            <a class="nav-link" href="settings.php">Ustawienia</a>
           </li>
+            <li class="nav-item">
+                <a class="nav-link" href="logout.php">Ustawienia</a>
+            </li>
 
         </ul>
       </div>

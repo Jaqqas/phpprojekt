@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
     <meta charset="utf-8"/>
     <title>Registration</title>
@@ -24,24 +24,24 @@ if (isset($_REQUEST['username'])) {
     $result   = mysqli_query($con, $query);
     if ($result) {
         echo "<div class='form'>
-                  <h3>You are registered successfully.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a></p>
+                  <h3>Zarejestrowano pomyślnie.</h3><br/>
+                  <p class='link'>Kliknij tutaj aby się <a href='login.php'>Zalogować</a></p>
                   </div>";
     } else {
         echo "<div class='form'>
-                  <h3>Required fields are missing.</h3><br/>
-                  <p class='link'>Click here to <a href='registration.php'>registration</a> again.</p>
+                  <h3>Brakuje wymaganych danych.</h3><br/>
+                  <p class='link'>Kliknij tutaj aby się <a href='registration.php'>zarejestrować</a> ponownie.</p>
                   </div>";
     }
 } else {
     ?>
     <form class="form" action="" method="post">
-        <h1 class="login-title">Registration</h1>
-        <input type="text" class="login-input" name="username" placeholder="Username" required />
-        <input type="text" class="login-input" name="email" placeholder="Email Adress">
-        <input type="password" class="login-input" name="password" placeholder="Password">
-        <input type="submit" name="submit" value="Register" class="login-button">
-        <p class="link"><a href="login.php">Click to Login</a></p>
+        <h1 class="login-title">Rejestracja</h1>
+        <input type="text" class="login-input" name="username" placeholder="Nazwa konta" required />
+        <input type="text" class="login-input" name="email" placeholder="Adres e-mail">
+        <input type="password" class="login-input" name="password" placeholder="Hasło">
+        <input type="submit" name="submit" value="Zarejestruj" class="login-button">
+        <p class="link"><a href="login.php">Logowanie</a></p>
     </form>
     <?php
 }
