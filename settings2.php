@@ -61,7 +61,7 @@ include("auth_session.php");
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="dashboard.php">Strona domowa</a>
+                <a class="nav-link active" href="admin.php">Strona domowa</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="settings2.php">Ustawienia</a>

@@ -24,8 +24,8 @@ include("auth_session.php");
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="/vendor/jquery/jquery.min.js">
 </head>
 
 <body>
@@ -68,9 +68,6 @@ include("auth_session.php");
                         <a class="nav-link" href="settings2.php">Ustawienia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cameras.php">Kamery</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="logs.php">Logi</a>
                     </li>
                     <li class="nav-item">
@@ -88,9 +85,8 @@ include("auth_session.php");
 
 <div id="main">
 
-    <div class="camera">
+    <div class="camera"></div>
 
-    </div>
 </div>
 
 

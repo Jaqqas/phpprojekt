@@ -1,22 +1,27 @@
 *{
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
 }
-#main{
-    width: 100%;
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    display: flex; /* or css grid for more intricate layouts */
+    flex-direction: column;
+    flex-wrap: wrap;
 
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 850px;
 }
 
 .camera{
-    margin: 10px;
-    width: 350px;
-    height: 350px;
-    background-color: #5c636a;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: gray;
     opacity: 0.9;
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
